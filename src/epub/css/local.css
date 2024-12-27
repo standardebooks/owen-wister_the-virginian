@@ -44,6 +44,13 @@ section[epub|type~="dedication"] > p:last-child{
 }
 /* End centered dedications */
 
+/* Preface */
+[epub|type~="preface"] footer{
+  margin-top: 1em;
+  text-align: right;
+}
+/* End Preface */
+
 /* Verse */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
