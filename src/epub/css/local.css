@@ -3,8 +3,8 @@
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-style: italic;
 	text-align: center;
-  font-style: italic;
 }
 
 section[epub|type~="dedication"] > *{
@@ -12,19 +12,19 @@ section[epub|type~="dedication"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-  text-indent: 0;
+	text-indent: 0;
 }
 
 section[epub|type~="dedication"] b{
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 section[epub|type~="dedication"] > p:first-child{
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 section[epub|type~="dedication"] > p:last-child{
-  text-align: justify;
+	text-align: justify;
 }
 
 @supports(display: flex){
@@ -77,3 +77,29 @@ span.elision{
 	margin-left: 3em;
 }
 /* End verse */
+
+/* Letters */
+[epub|type~="z3998:letter"] header{
+	margin-bottom: .5em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 1em;
+}
+
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="se:letter.dateline"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="se:letter.dateline"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:letter"] [epub|type~="z3998:place"],
+[epub|type~="se:letter.dateline"] time{
+	font-variant: normal;
+}
+/* End letters */
