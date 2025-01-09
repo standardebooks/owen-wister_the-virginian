@@ -46,8 +46,8 @@ section[epub|type~="dedication"] > p:last-child{
 
 /* Preface */
 [epub|type~="preface"] footer{
-  margin-top: 1em;
-  text-align: right;
+	margin-top: 1em;
+	text-align: right;
 }
 /* End Preface */
 
