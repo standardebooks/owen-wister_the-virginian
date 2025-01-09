@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Virginian</dc:title>
 		<meta property="file-as" refines="#title">Virginian, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Horseman of the Plains</dc:title>
+		<meta property="file-as" refines="#subtitle">Horseman of the Plains, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Virginian: A Horseman of the Plains</dc:title>
+		<meta property="file-as" refines="#fulltitle">The Virginian: A Horseman of the Plains</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Western stories</dc:subject>
 		<dc:subject id="subject-2">Cowboys -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Cattle stealing -- Fiction</dc:subject>
@@ -43,45 +50,44 @@
 		<meta property="term" refines="#subject-4">sh2008113244</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008113346</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">The story of a cowboy working on a Wyoming Territory cattle ranch in the 1880s who embraces the spirit of the American West.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The narrator is first drawn to the Virginian upon arrival in Medicine Bow, Wyoming from “back East,” witnessing him successfully rope a wild pony after seeing many other cowboys fail. This enigmatic title character is revealed to be the narrator’s escort to his destination at Judge Henry’s Sunk Creek ranch, where the Virginian is employed. After getting a taste of the Western way of life in town, they set off on the remaining 263 mile drive to the cattle ranch, beginning the long friendship of the two. The newly nicknamed Tenderfoot narrator goes on to recount the work, romances, and adventures of the Virginian through much of the 1880s, set against the backdrop of the Wyoming Territory and greater American West.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Virginian&lt;/i&gt; is foundational to the popularity of the Western genre in 20th century America. First published as a novel in 1902, it spawned numerous adaptations in theater, film, and television, while setting the stage for later popular authors like &lt;a href="https://standardebooks.org/ebooks/zane-grey"&gt;Zane Grey&lt;/a&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1298</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/virginianhorsema00wistuoft</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Virginian</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Virginian_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/owen-wister_the-virginian</meta>
 		<dc:creator id="author">Owen Wister</dc:creator>
 		<meta property="file-as" refines="#author">Wister, Owen</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Owen_Wister</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n79093083</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">William Robinson Leigh</dc:contributor>
+		<meta property="file-as" refines="#artist">Leigh, William Robinson</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Robinson_Leigh</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80002521</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Bill Brewer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Brewer, Bill</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Neil Pankey</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Pankey, Neil</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/neilpa</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
