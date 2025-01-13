@@ -32,13 +32,6 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
-/* Preface */
-[epub|type~="preface"] footer{
-	margin-top: 1em;
-	text-align: right;
-}
-/* End Preface */
-
 /* Verse */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
@@ -92,14 +85,12 @@ span.elision{
 /* Book specific */
 /* Dedication extras */
 section[epub|type~="dedication"] b{
+	font-style: normal;
 	text-transform: uppercase;
 }
 
-section[epub|type~="dedication"] > p:first-child{
-	margin-bottom: 1em;
-}
-
 section[epub|type~="dedication"] > p:last-child{
+	margin-top: 1em;
 	text-align: justify;
 }
 /* End dedication extras */
@@ -114,4 +105,9 @@ section[epub|type~="dedication"] > p:last-child{
 	font-variant: normal;
 }
 /* End letter extras */
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
 /* End book specific */
