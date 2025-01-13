@@ -15,18 +15,6 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] b{
-	text-transform: uppercase;
-}
-
-section[epub|type~="dedication"] > p:first-child{
-	margin-bottom: 1em;
-}
-
-section[epub|type~="dedication"] > p:last-child{
-	text-align: justify;
-}
-
 @supports(display: flex){
 	section[epub|type~="dedication"]{
 		align-items: center;
@@ -96,11 +84,27 @@ span.elision{
 }
 
 [epub|type~="z3998:recipient"],
-[epub|type~="z3998:salutation"],
-[epub|type~="se:letter.dateline"]{
+[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
+/* End letters */
 
+/* Book specific */
+/* Dedication extras */
+section[epub|type~="dedication"] b{
+	text-transform: uppercase;
+}
+
+section[epub|type~="dedication"] > p:first-child{
+	margin-bottom: 1em;
+}
+
+section[epub|type~="dedication"] > p:last-child{
+	text-align: justify;
+}
+/* End dedication extras */
+
+/* Letter extras */
 [epub|type~="se:letter.dateline"]{
 	font-variant: small-caps;
 }
@@ -109,4 +113,5 @@ span.elision{
 [epub|type~="se:letter.dateline"] time{
 	font-variant: normal;
 }
-/* End letters */
+/* End letter extras */
+/* End book specific */
