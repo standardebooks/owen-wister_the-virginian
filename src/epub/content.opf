@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/owen-wister/the-virginian</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-01-13T18:08:09Z</dc:date>
+		<meta property="dcterms:modified">2025-01-13T18:08:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -51,16 +51,16 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008113346</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">The story of a cowboy working on a Wyoming Territory cattle ranch in the 1880s who embraces the spirit of the American West.</dc:description>
+		<dc:description id="description">A cowboy working on a Wyoming Territory cattle ranch in the 1880s embraces the spirit of the American West.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The narrator is first drawn to the Virginian upon arrival in Medicine Bow, Wyoming from “back East,” witnessing him successfully rope a wild pony after seeing many other cowboys fail. This enigmatic title character is revealed to be the narrator’s escort to his destination at Judge Henry’s Sunk Creek ranch, where the Virginian is employed. After getting a taste of the Western way of life in town, they set off on the remaining 263 mile drive to the cattle ranch, beginning the long friendship of the two. The newly nicknamed Tenderfoot narrator goes on to recount the work, romances, and adventures of the Virginian through much of the 1880s, set against the backdrop of the Wyoming Territory and greater American West.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Virginian&lt;/i&gt; is foundational to the popularity of the Western genre in 20th century America. First published as a novel in 1902, it spawned numerous adaptations in theater, film, and television, while setting the stage for later popular authors like &lt;a href="https://standardebooks.org/ebooks/zane-grey"&gt;Zane Grey&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;The narrator, a man from “back East” on his way to a cattle ranch, stops in Medicine Bow, Wyoming, and witnesses the enigmatic title character—the Virginian—rope a wild pony after many other cowboys failed. The Virginian is revealed to be the narrator’s escort to his destination, where the Virginian is employed. After getting a taste of the Western way of life in town, the two set off on the remaining 263 mile journey to the ranch, sparking a friendship. The narrator, now nicknamed Tenderfoot, goes on to recount the work, romances, and adventures of the Virginian against the backdrop of the Wyoming Territory and greater American West.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Virginian&lt;/i&gt; is foundational novel of the Western genre. Published in 1902, it spawned numerous adaptations in theater, film, and television, while setting the stage for later popular Western writers like &lt;a href="https://standardebooks.org/ebooks/zane-grey"&gt;Zane Grey&lt;/a&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1298</dc:source>
 		<dc:source>https://archive.org/details/virginianhorsema00wistuoft</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">132520</meta>
+		<meta property="se:reading-ease.flesch">83.25</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Virginian_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/owen-wister_the-virginian</meta>
 		<dc:creator id="author">Owen Wister</dc:creator>
@@ -90,6 +90,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsa</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
