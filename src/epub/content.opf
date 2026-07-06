@@ -64,7 +64,7 @@
 		<meta property="schema:wordCount">129776</meta>
 		<meta property="schema:educationalLevel">83.25</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Virginian_(novel)" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/owen-wister_the-virginian" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Owen Wister</dc:creator>
